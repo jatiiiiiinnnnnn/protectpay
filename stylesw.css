@@ -1,0 +1,119 @@
+/* Basic styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to bottom right, #d0e1ff, #a6c1ff);
+    padding: 20px;
+  }
+  
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Aligns items in the same line */
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    margin-top: 0;
+  }
+  
+  .navbar-left {
+    font-size: 1.2em; /* Sets consistent font size for navbar text */
+    font-weight: bold;
+  }
+  
+  .navbar-right a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.0em; /* Sets consistent font size for navbar text */
+    font-weight: 500;
+  }
+  
+  .navbar-right a:hover {
+    color: #0056b3;
+  }
+  
+  /* Profile Section */
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #ccc;
+    margin-right: 20px;
+  }
+  
+  .profile-info h2 {
+    margin-bottom: 5px;
+  }
+  
+  .profile-info p {
+    margin-top: 5px;
+    color: #555;
+  }
+  
+  /* Balance Cards Section */
+  .balance-section {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    text-align: center;
+   
+  }
+  
+  .card h3 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 1.1em;
+  }
+  
+  .card button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .card button:hover {
+    background-color: #45a049;
+  }
+  
+  #cashin-list {
+    list-style: none;
+    padding: 0;
+  }
+  
